@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .recuadro3 img {
+            margin: 5px; 
+            width: 100%; 
+            height: auto; 
+        }
+      
+    </style>
+
+    <title>ALEX CAMPOS</title>
+
+</head>
+<body> 
+    
+    
+<header class="header-container">
+    
+    <nav class="nav-container">
+<div class="nav-container-one">
+    <li><a href="#inicio">INICIO</a></li>
+    <li><a href="#acerca">ACERCA</a></li>
+    <li><a href="#discografia">DISCOGRAFIA</a></li>
+    <li><a href="#imagenes">IMAGENES</a></li>
+</div>        
+    </nav>
+</header>
+
+<MAIN>
+    <div id="inicio">
+        
+    </div>
+    <div>
+        <div class="titulo-alex">
+        <h1>ALEX CAMPOS</h1>
+        </div>
+        <div class="imagen-principal">
+        <img src="./imagenes nuevas/esta es 100 por 100.jpg" alt="foto de alex campos en concierto">
+        </div>
+    </div>
+    
+    <div id="acerca">
+    <div class="recuadro" style="align-items: flex-start; flex-direction: column;">
+   
+       
+    <h2 class="titulo-dos" style="align-self: flex-start;">ACERCA DE ALEX CAMPOS</h2>
+    <P class="infoalex">Édgar Alexánder Campos Mora (Bogotá, 10 de septiembre de 1976), mejor conocido como Álex Campos, es un cantante, compositor, músico y productor discográfico colombiano de música cristiana evangélica es considerado uno de los referentes y principales exponentes en dicho género musical.1​ Ganador de cinco Premios Grammy Latinos por mejor álbum cristiano en español. Desde 2001 pertenece a la compañía musical Misión Vida, fundada por él mismo para promover su ministerio. Es intérprete de varios temas conocidos en el ámbito cristiano como «Sueño de morir», «Al taller del maestro», «Me robaste el corazón», «Tu poeta», «Como el color de la sangre», «El sonido del silencio», «No tiene prisa», «Lenguaje de amor», «Derroche de amor», «Soy soldado», «Cara a cara» , entre otros.</P>
+
+    
+    <a href="https://es.wikipedia.org/wiki/Alex_Campos" target="_blank"><button class="boton" style="align-self: flex-start;  background-color: rgb(#40a4f4); border-radius: 50px;">MAS INFORMACION</button></a>
+        </div>
+</div>
+<div id="discografia">
+   <div class="recuadro2">
+    
+     <div >
+        <div>
+
+        <h3 class="discografia">DISCOGRAFIA</h3>
+   <P>ME ROBASTE EL CORAZON</P>
+   <P>AL TALLER DEL MAESTRO</P>
+   <P>EL SONIDO DEL SILENCIO</P>
+   <P>TU POETA</P> 
+        </div>
+      <div class="populares">
+
+   <h4>CANCIONES POPULARES</h4>
+   <P>SI YO TE DEJO</P>
+   <P>AMIGOS</P>
+   <P>DERROCHE DE AMOR</P>
+   <P>LA FRUTA PROHIBIDA</P>
+      </div> 
+      <BUtton class="spotify">
+        <a href="https://open.spotify.com/intl-es/artist/6slyJwua5e5GuhuP82sTHR?si=qJMVpMo5T-6Qe_40Kw9BWg" target="_blank">ESCUCHALO EN SPOTIFY</a>
+     </BUtton>
+
+    </div>
+    <div>
+        <iframe src="https://open.spotify.com/embed?uri=spotify:track:0SWsB63mOGennRx0j6DiBK" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+    </div>
+
+</div>
+</div>
+
+<div id="imagenes">
+    <div class="recuadro3">
+         
+        <h5>IMAGENES</h5>
+        <div>
+        <img src="./imagenes nuevas/1.jpg" alt="">
+       <img src="./imagenes nuevas/2.jpg" alt="">
+         </div>
+         <div>
+       <img src="./imagenes nuevas/3.jpg" alt="">
+       <img src="./imagenes nuevas/4.jpg" alt="">
+         </div>
+      
+    
+    </div>
+</div>       
+     
+    
+</div>
+
+</MAIN>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+
+</body>
+</html>
